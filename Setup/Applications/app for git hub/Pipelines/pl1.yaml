@@ -1,2 +1,7 @@
 harnessApiVersion: '1.0'
 type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: 'wf '
+  parallel: false
+  workflowName: 'wf '
