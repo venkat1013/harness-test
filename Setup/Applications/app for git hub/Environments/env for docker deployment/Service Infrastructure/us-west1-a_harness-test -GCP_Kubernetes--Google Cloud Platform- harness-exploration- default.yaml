@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: GCP_KUBERNETES
+cluster: us-west1-a/harness-test
+computeProviderName: harness-exploration
+computeProviderType: GCP
+deploymentType: KUBERNETES
+infraMappingType: GCP_KUBERNETES
+namespace: default
+serviceName: docker service
